@@ -1204,6 +1204,9 @@ li {
         height: 120px;
     }
 
+    .service__list__item__button{
+        margin-bottom: 50px;
+    }
     .footer__list__item:nth-child(1){
         display: none;
     }
