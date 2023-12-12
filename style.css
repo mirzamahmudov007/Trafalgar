@@ -1194,7 +1194,7 @@ li {
     }
 
     .blog__list__item p{
-        height: 150px;
+        height: 85px;
         display: flex;
         align-items: start;
         /*background-color: red;*/
@@ -1204,8 +1204,16 @@ li {
         display: none;
     }
 }
+@media only screen and (max-width: 450px) {
+    .blog__list__item p{
+        height: 90px;
+        display: flex;
+        align-items: start;
+        /*background-color: red;*/
+    }
 
-@media only screen and (max-width: 400px) {
+}
+@media only screen and (max-width: 360px) {
     .nav__logo {
         width: 50%;
     }
@@ -1252,7 +1260,7 @@ li {
     }
 
     .blog__list__item p{
-        height: 90px;
+        height: 130px;
         display: flex;
         align-items: start;
         /*background-color: red;*/
