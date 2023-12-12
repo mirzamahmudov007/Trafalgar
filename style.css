@@ -264,6 +264,71 @@ li {
     font-weight: 700;
 }
 
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #67C3F3;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.footer__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list__item h2{
+    color: #FFF;
+    font-family: Muli;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 300% */
+}
+
+.footer__list__item p{
+    color: #FFF;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 211.111% */
+
+}
+
+.footer__list__item span{
+    color: #FFF;
+    font-family: Muli;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+}
+.footer__list__item:nth-child(1){
+    width: 30%;
+    height: 70%;
+}
+.footer__list__item:nth-child(1) p{
+    margin-bottom: 20px;
+}
+.footer__list__item:nth-child(2){
+    width: 15%;
+    height: 70%;
+}
+.footer__list__item:nth-child(3){
+    width: 15%;
+    height: 70%;
+}
+.footer__list__item:nth-child(4){
+    width: 15%;
+    height: 70%;
+}
+
 @media only screen and (max-width: 1300px) {
 
     .navbar {
@@ -327,28 +392,32 @@ li {
         height: 150px;
     }
 
-    .blog__list__item{
+    .blog__list__item {
         margin-bottom: 10px;
     }
-    .blog__list__item h2{
+
+    .blog__list__item h2 {
         font-size: 25px;
         line-height: 30px;
     }
-    .blog__list__item hr{
+
+    .blog__list__item hr {
         margin: 10px 0;
     }
-    .blog__list__item p{
+
+    .blog__list__item p {
         font-size: 15px;
         margin-bottom: 7px;
         line-height: 25px;
     }
-    .blog__list__item button{
+
+    .blog__list__item button {
         width: 130px;
         height: 40px;
         font-size: 15px;
     }
 
-    .blog__list__item{
+    .blog__list__item {
         margin-bottom: 80px;
     }
 }
@@ -408,28 +477,49 @@ li {
         height: 150px;
     }
 
-    .blog__list__item{
+    .blog__list__item {
         margin-bottom: 40px;
         padding-right: 0px;
     }
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 25px;
         line-height: 30px;
     }
 
-    .blog__list__item p{
+    .blog__list__item p {
         line-height: 20px;
         margin-bottom: 5px;
     }
 
-    .blog__list__item button{
+    .blog__list__item button {
         height: 40px;
         width: 40%;
     }
+
     .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
         padding-left: 90px;
         padding-right: 40px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+    .footer__list__item img{
+        width: 48%;
+    }
+    .footer__list__item h2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .footer__list__item p{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .footer__list__item:nth-child(1) p{
+        margin-bottom: 1px;
+        line-height: 33px;
     }
 }
 
@@ -503,26 +593,30 @@ li {
         width: 43%;
     }
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 24px;
     }
+
     .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
         padding-left: 80px;
         padding-right: 40px;
     }
-    .blog__list__item hr{
+
+    .blog__list__item hr {
         margin: 5px 0;
     }
 
-    .blog__list__item p{
+    .blog__list__item p {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    .blog__list__item button{
+    .blog__list__item button {
         height: 33px;
         font-size: 11px;
     }
+
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -620,9 +714,33 @@ li {
         padding-right: 20px;
     }
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 23px;
     }
+
+    .footer{
+        height: 250px;
+    }
+    .footer__list__item img{
+       display: none;
+    }
+    .footer__list__item h2{
+        font-size: 16px;
+    }
+    .footer__list__item p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .footer__list__item:nth-child(1) p{
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .footer__list__item:nth-child(1) span{
+        line-height: 20px;
+        font-size: 14px;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -720,13 +838,21 @@ li {
         font-size: 11px;
     }
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 18px;
     }
 
     .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
         padding-left: 50px;
         padding-right: 20px;
+    }
+
+    .footer__list__item:nth-child(1){
+        width:35%;
+    }
+
+    .footer__list__item h2{
+        font-size: 17px;
     }
 }
 
@@ -808,10 +934,13 @@ li {
     }
 
 
-
     .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
         padding-left: 20px;
         padding-right: 0px;
+    }
+
+    .footer__list__item:nth-child(1){
+        width: 40%;
     }
 }
 
@@ -858,17 +987,19 @@ li {
     }
 
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 16px;
     }
-    .blog__list__item p{
+
+    .blog__list__item p {
         font-size: 12px;
     }
+
     .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
         padding-left: 10px;
     }
 
-    .blog__list__item button{
+    .blog__list__item button {
         height: 30px;
         font-size: 10px;
     }
@@ -924,7 +1055,7 @@ li {
         width: 100%;
     }
 
-    .service__list__item img{
+    .service__list__item img {
         width: 15%;
     }
 
@@ -932,14 +1063,27 @@ li {
         height: 1300px;
     }
 
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 15px;
         line-height: 20px;
         /*width: 100%;*/
     }
 
-    .blog__list__item p{
+    .blog__list__item p {
         font-size: 10px;
+    }
+
+    .footer__list__item h2{
+        font-size: 14px;
+    }
+
+    .footer__list__item p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .footer__list__item:nth-child(1) span{
+        font-size: 10px;
+        line-height: 9px;
     }
 }
 
@@ -1016,21 +1160,23 @@ li {
     }
 
 
-
-    .blog__list__item h2{
+    .blog__list__item h2 {
         font-size: 12px;
     }
-    .blog__list__item:nth-child(1){
-        display: none;
-    }
-    .blog__list__item:nth-child(4){
-        display: none;
-    }
-    .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
-           padding-left: 0;
-       }
 
-    .blog__list__item button{
+    .blog__list__item:nth-child(1) {
+        display: none;
+    }
+
+    .blog__list__item:nth-child(4) {
+        display: none;
+    }
+
+    .blog__list__item:nth-child(2), .blog__list__item:nth-child(3) {
+        padding-left: 0;
+    }
+
+    .blog__list__item button {
         font-size: 9px;
     }
 
@@ -1049,7 +1195,7 @@ li {
         width: 40%;
     }
 
-    .service__list__item{
+    .service__list__item {
         padding: 10px;
     }
 
@@ -1059,5 +1205,4 @@ li {
         align-items: center;
     }
 }
-
 
