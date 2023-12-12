@@ -1200,6 +1200,10 @@ li {
         /*background-color: red;*/
     }
 
+    .footer{
+        height: 120px;
+    }
+
     .footer__list__item:nth-child(1){
         display: none;
     }
@@ -1210,6 +1214,10 @@ li {
         display: flex;
         align-items: start;
         /*background-color: red;*/
+    }
+
+    .footer{
+        height: 130px;
     }
 
 }
@@ -1259,6 +1267,10 @@ li {
         height: 60px;
     }
 
+
+    .footer{
+        height: 100px;
+    }
     .blog__list__item p{
         height: 130px;
         display: flex;
