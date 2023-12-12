@@ -1180,6 +1180,13 @@ li {
         font-size: 9px;
     }
 
+    .service__list__item__button button{
+        width: 80px;
+    }
+    .footer__list__item{
+        align-items: flex-start;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -1203,6 +1210,23 @@ li {
         height: 1000px;
         display: flex;
         align-items: center;
+    }
+
+    .footer{
+        height: 150px;
+    }
+    .footer__list__item p{
+        line-height: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer__list__item:nth-child(1) p{
+        line-height: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer__list__item h2{
+        line-height: 15px;
     }
 }
 
