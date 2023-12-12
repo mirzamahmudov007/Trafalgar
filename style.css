@@ -1241,6 +1241,9 @@ li {
         margin-bottom: 5px;
     }
 
+    .blog{
+        margin-top: 40px;
+    }
     .blog__list__item h2{
         line-height: 15px;
         display: flex;
@@ -1249,7 +1252,7 @@ li {
     }
 
     .blog__list__item p{
-        height: 150px;
+        height: 90px;
         display: flex;
         align-items: start;
         /*background-color: red;*/
